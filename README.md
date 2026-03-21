@@ -4,8 +4,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hola+👋+Soy+Félix+Andrés+Patiño;Analista+Programador+en+formación+🎓;Python+|+Java+|+Spring+Boot+|+AWS;Duoc+UC+·+Santiago+Chile+📍" alt="Typing SVG" />
-
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hola+%F0%9F%91%8B+Soy+Felix+Andres+Patino;Analista+Programador+en+formacion+%F0%9F%8E%93;Python+%7C+Java+%7C+Spring+Boot+%7C+AWS;Duoc+UC+%C2%B7+Santiago+Chile+%F0%9F%93%8D" alt="Typing SVG" />
 </div>
 
 ---
