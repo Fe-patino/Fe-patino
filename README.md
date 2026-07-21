@@ -4,7 +4,8 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hola+%F0%9F%91%8B+Soy+Felix+Andres+Patino;Analista+Programador+en+formacion+%F0%9F%8E%93;Python+%7C+Java+%7C+Spring+Boot+%7C+AWS;Duoc+UC+%C2%B7+Santiago+Chile+%F0%9F%93%8D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hola+%F0%9F%91%8B+Soy+Felix+Andres+Patino;Analista+Programador+en+formacion+%F0%9F%8E%93;Java+%7C+Spring+Boot+%7C+Microservicios+%7C+Docker;Duoc+UC+%C2%B7+Santiago+Chile+%F0%9F%93%8D" alt="Typing SVG" />
+
 </div>
 
 ---
@@ -30,9 +31,9 @@
   <img src="https://skillicons.dev/icons?i=python,java,mysql" />
 </p>
 
-### ⚙️ Frameworks
+### ⚙️ Frameworks & Librerías
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=spring" />
+  <img src="https://skillicons.dev/icons?i=spring,maven" />
 </p>
 
 ### 🗄️ Bases de Datos
@@ -42,7 +43,7 @@
 
 ### ☁️ Cloud & DevOps
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=aws" />
+  <img src="https://skillicons.dev/icons?i=aws,docker" />
 </p>
 
 ### 🔧 Herramientas
@@ -55,10 +56,18 @@
 ## ⚡ Tech Stack completo
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot_3.4-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Cloud_Eureka-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL_8.0-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Swagger_OpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Lombok-BC4521?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Mockito-78A641?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
@@ -67,6 +76,59 @@
   <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white"/>
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 </p>
+
+---
+
+## 🚀 Proyecto destacado — Click & Eat
+
+> Plataforma de delivery de comida construida con arquitectura de microservicios
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Microservicios-10_servicios-58A6FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-3.4.1-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+</p>
+
+### 🧩 Microservicios desarrollados
+
+| Microservicio | Puerto | Descripción |
+|---|---|---|
+| 📦 ms-productos | 8084 | Gestión del catálogo de productos |
+| 🔔 ms-notificaciones | 8088 | Envío de notificaciones a usuarios, restaurantes y repartidores |
+| ⭐ ms-reseñas | 8087 | Reseñas y puntuaciones de pedidos |
+
+### 🏗️ Arquitectura
+
+```
+Cliente → API Gateway (8090)
+              ↓
+        Eureka Server (8761)
+              ↓
+    ┌─────────────────────────┐
+    │  ms-usuario   (8080)    │
+    │  ms-repartidores (8081) │
+    │  ms-pagos     (8082)    │
+    │  ms-pedidos   (8083)    │
+    │  ms-productos (8084)    │
+    │  ms-carrito   (8085)    │
+    │  ms-restaurante (8086)  │
+    │  ms-reseñas   (8087)    │
+    │  ms-notificaciones(8088)│
+    └─────────────────────────┘
+              ↓
+         MySQL 8.0
+```
+
+### ✅ Tecnologías aplicadas
+
+- **Spring Boot 3.4.1** — base de cada microservicio
+- **Spring Cloud Netflix Eureka** — registro y descubrimiento de servicios
+- **Spring Data JPA** — persistencia con MySQL
+- **REST APIs** — comunicación entre microservicios con RestTemplate
+- **Swagger / OpenAPI** — documentación de endpoints
+- **Docker Compose** — orquestación de todos los servicios
+- **JUnit 5 + Mockito + MockMvc** — tests unitarios de controllers
+- **Lombok** — reducción de código boilerplate
 
 ---
 
