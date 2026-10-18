@@ -171,7 +171,7 @@ Cliente → API Gateway (8090)
 
 [![Gmail](https://img.shields.io/badge/Gmail-felixandrespj%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:felixandrespj@gmail.com)
 [![Duoc UC](https://img.shields.io/badge/Duoc%20UC-fe.patino%40duocuc.cl-003087?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fe.patino@duocuc.cl)
-[![Instagram](https://img.shields.io/badge/Instagram-fepatino__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/fepatino_)
+
 
 </div>
 
